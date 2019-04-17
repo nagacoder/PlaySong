@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  background: linear-gradient(tomato, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.ps-logo {
+  height: 140px;
+  width: 160px;
+}
+.ps-spectrum {
+  height: 80px;
+  width: 65%;
+}
+.ps-right {
+  float: right;
+}
+.ps-margin {
+  font-size: 16pt;
+  color: #e74c3c;
+}
+.ps-mute-btn {
+  height: 25px;
+  width: 30px;
+}
+.cursor-hand {
+  cursor: pointer;
+}
+/* for the slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 4px;
+  background: #3498db;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(-10px);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #34495e;
+  position: relative;
+  border: 3px solid #e74c3c;
+  z-index: 3;
+  cursor: pointer;
+}
+/* footer  */
+.ps-link {
+  margin-top: 50px;
+}
+.ps-link,
+a {
+  color: #ffffff;
+  font-size: 8pt;
+  line-height: 0px;
+}
+.ps-link-img {
+  height: 20px;
+  width: 20px;
+}
+.cp {
+  padding-top: 4px;
+  margin-right: 2px;
+}
+.ps-float-right {
+  float: right;
+}
